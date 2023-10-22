@@ -1,11 +1,13 @@
 const sidebarReducer = (state, action) => {
   switch (action.type) {
     case "TOGGLE_SIDEBAR":
-      return {...state}
-
-
-
+      return {
+        ...state,
+        isSidebarOpen: !state.isSidebarOpen
+      }
     default:
-      return state, isSidbar;
+      throw new Error(`No maching "${action.type}" action type`);
   }
 }
+
+export default sidebarReducer;

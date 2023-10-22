@@ -1,9 +1,10 @@
 import "./Content.css"
+import ContentTop from '../../components/ContentTop/ContentTop'
 
 const Content = () => {
   return (
-    <div>
-      
+    <div className="main-content">
+      <ContentTop/>
     </div>
   )
 }
