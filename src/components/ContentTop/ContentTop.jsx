@@ -14,9 +14,22 @@ const ContentTop = () => {
           onClick={ () => toggleSidebar()}>
           <img src={iconsImgs.menu} alt=""/>
         </button>
-        <h3 className="content-top-title">
-          Home
-        </h3>
+        <h3 className="content-top-title">Home</h3>
+      </div>
+      <div className="content-top-btns">
+        <button
+          type="button"
+          className="search-btn content-top-btn"
+        >
+          <img src={iconsImgs.search} alt=""/>
+        </button>
+        <button
+          type="button"
+          className="notification-btn content-top-btn"
+        >
+          <img src={iconsImgs.bell} alt=""/>
+          <span className="notification-btn-dot"></span>
+        </button>
       </div>
     </div>
   )
