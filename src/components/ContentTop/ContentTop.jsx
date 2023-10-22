@@ -10,7 +10,7 @@ const ContentTop = () => {
       <div className="content-top-left">
         <button
           type="button"
-          className="sidebar-togger"
+          className="sidebar-toggler"
           onClick={ () => toggleSidebar()}>
           <img src={iconsImgs.menu} alt=""/>
         </button>
