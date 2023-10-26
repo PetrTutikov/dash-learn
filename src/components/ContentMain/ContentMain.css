@@ -17,7 +17,7 @@
 
 .subgrid-two{
     display: grid;
-    column-gap: 20px;
+    row-gap: 20px;
     height: 100%;
 }
 
