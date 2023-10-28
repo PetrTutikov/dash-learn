@@ -11,20 +11,20 @@
 }
 
 :root {
-  --clr-primary: #29221d;
-  --clr-primar-light: #473b33;
-  --clr-secondary: #1e1611;
-  --clr-white: #fff;
+  --clr-primary: rgb(253, 253, 254);
+  --clr-primar-light: rgb(246, 247, 250);
+  --clr-secondary: rgb(253, 253, 254);
+  --clr-white: #151515;
   --clr-black: #000;
-  --clr-pumpkin: #fe6c00;
+  --clr-pumpkin: #ea4787;
   --clr-silver: #a8a5a6;
   --clr-silver-v1: #bdbabb;
   --clr-scarlet: #fe1e00;
   --clr-scarlet-v1: rgb(254, 30, 0, 0.79);
   --clr-green: #00fe93;
   --clr-yellow: #fec80a;
-  --clr-jet: #302924;
-  --clr-peach: #ffc397;
+  --clr-jet: #fff5f6;
+  --clr-peach: #ffe0e3;
   --font-family-bai: "Bai Jamjuree", sans-serif;
 /*Настройка плавного перехода по умолчанию*/
   --transition-default: all 300ms ease-in-out;
