@@ -4,7 +4,7 @@ import { iconsImgs } from '../../utils/images'
 const Loans = () => {
   return (
     <div className="subgrid-two-item grid-common grid-c7">
-      <div className="">
+      <div className="grid-c-title">
         <h3 className="grid-c-title-text">Loans</h3>
         <button className="grid-c-title-icon">
           <img src={iconsImgs.plus}/>
