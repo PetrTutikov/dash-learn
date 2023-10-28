@@ -20,18 +20,18 @@ const Subscriptions = () => {
                   <div className="icon">
                     <img src={iconsImgs.alert}/>
                   </div>
-                  <div className="text text-silver-v1">
+                  <p className="text text-silver-v1">
                     {subscription.title}
                     <span>
                       due {subscription.due_date}
                     </span>
+                  </p>
                   </div>
                   <div className="grid-item-r">
                     <span className="text text-silver-v1">
                       ${subscription.amount}
                     </span>
                   </div>
-                </div>
               </div>
             ))
           }
